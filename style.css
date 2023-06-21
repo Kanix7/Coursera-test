@@ -6,20 +6,53 @@ h1 {
 }
 .Box {
   margin-bottom: 15px;
-  /* display: flex; */
+  display: flex;
 }
-.col-md-4 {
+.Chicken {
   margin-right: 20px;
   border-style: solid;
   border-radius: 5px;
 }
-.col-md-4 h3 {
+.Chicken h3 {
   margin: 0;
   border-style: solid;
   border-radius: 2px;
   float: right;
   background-color: pink;
 }
-.col-md-4 p {
+.Chicken p {
   margin: 20px;
+}
+.Beef {
+  margin-right: 20px;
+  border-style: solid;
+  border-radius: 5px;
+}
+.Beef h3 {
+  margin: 0;
+  border-style: solid;
+  border-radius: 2px;
+  float: right;
+  background-color: pink;
+}
+.Beef p {
+  margin: 20px;
+}
+.Sushi {
+  margin-right: 20px;
+  border-style: solid;
+  border-radius: 5px;
+}
+.Sushi h3 {
+  margin: 0;
+  border-style: solid;
+  border-radius: 2px;
+  float: right;
+  background-color: pink;
+}
+.Sushi p {
+  margin: 20px;
+}
+
+@media (min-width: ) {
 }
