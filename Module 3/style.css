@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  margin: 0;
+  padding: 0;
+  height: 40px;
+  background-color: rgb(153, 153, 153);
+  margin-bottom: 20px;
+}
+.navbar h1 {
+  text-align: left;
+}
+.navbar hr {
+  margin-top: 10px;
+  border: none;
+  height: 2px;
+  background-color: black;
+}
+.navbar ul {
+  float: right;
+  margin-right: 40px;
+}
+.navbar li {
+  display: inline-block;
+  margin: 0px 8px;
+  line-height: 35px;
+}
+.navbar a {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+.navbar #icon {
+  float: right;
+  color: white;
+  font-size: 30px;
+  line-height: 20px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+h1 {
+  color: black;
+  text-align: center;
+}
+#Box {
+  margin-bottom: 15px;
+  display: flex;
+}
+#Chicken {
+  background-color: rgb(153, 153, 153);
+  margin-left: 10px;
+  margin-right: 20px;
+  border-style: solid;
+  border-radius: 5px;
+}
+#Chicken h3 {
+  margin: 0;
+  border-style: solid;
+  border-radius: 2px;
+  float: right;
+  background-color: pink;
+}
+#Chicken p {
+  margin: 20px;
+}
+#Beef {
+  background-color: rgb(153, 153, 153);
+  margin-right: 20px;
+  border-style: solid;
+  border-radius: 5px;
+}
+#Beef h3 {
+  margin: 0;
+  border-style: solid;
+  border-radius: 2px;
+  float: right;
+  border-color: black;
+  background-color: rgb(255, 83, 83);
+  color: white;
+}
+#Beef p {
+  margin: 20px;
+}
+#Sushi {
+  background-color: rgb(153, 153, 153);
+  margin-right: 20px;
+  border-style: solid;
+  border-radius: 5px;
+}
+#Sushi h3 {
+  margin: 0;
+  border-style: solid;
+  border-radius: 2px;
+  float: right;
+  background-color: yellow;
+}
+#Sushi p {
+  margin: 20px;
+}
+@media (min-width: 600px) and (max-width: 900px) {
+  #Box {
+    display: block;
+  }
+  #Chicken {
+    float: left;
+    height: 10%;
+    width: 45%;
+    margin-bottom: 15px;
+  }
+  #Beef {
+    float: right;
+    height: 10%;
+    width: 45%;
+    margin-bottom: 15px;
+  }
+  #Sushi {
+    margin-left: 10px;
+    clear: both;
+    height: 10%;
+    width: 97%;
+  }
+}
+@media (max-width: 599px) {
+  .navbar #icon {
+    display: block;
+  }
+  .navbar ul {
+    position: fixed;
+    width: 100%;
+    background: #2f3640;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.2s;
+  }
+  .navbar li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  .navbar a {
+    font-size: 20px;
+  }
+  a.active,
+  a.hover {
+    border: none;
+    color: aquamarine;
+  }
+  .navbar ul.show {
+    left: 0;
+  }
+  #Box {
+    display: block;
+  }
+  #Chicken {
+    margin-bottom: 20px;
+  }
+  #Beef {
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+  #Sushi {
+    margin-left: 10px;
+  }
+}
