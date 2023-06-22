@@ -12,6 +12,7 @@
 }
 .navbar h1 {
   text-align: left;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .navbar hr {
   margin-top: 10px;
@@ -45,6 +46,7 @@
 h1 {
   color: black;
   text-align: center;
+  font-family: "Zeyada", cursive;
 }
 #Box {
   margin-bottom: 15px;
@@ -61,11 +63,13 @@ h1 {
   margin: 0;
   border-style: solid;
   border-radius: 2px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   float: right;
   background-color: pink;
 }
 #Chicken p {
   margin: 20px;
+  font-family: "Covered By Your Grace", cursive;
 }
 #Beef {
   background-color: rgb(153, 153, 153);
@@ -77,6 +81,7 @@ h1 {
   margin: 0;
   border-style: solid;
   border-radius: 2px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   float: right;
   border-color: black;
   background-color: rgb(255, 83, 83);
@@ -84,6 +89,7 @@ h1 {
 }
 #Beef p {
   margin: 20px;
+  font-family: "Covered By Your Grace", cursive;
 }
 #Sushi {
   background-color: rgb(153, 153, 153);
@@ -95,11 +101,13 @@ h1 {
   margin: 0;
   border-style: solid;
   border-radius: 2px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   float: right;
   background-color: yellow;
 }
 #Sushi p {
   margin: 20px;
+  font-family: "Covered By Your Grace", cursive;
 }
 @media (min-width: 600px) and (max-width: 900px) {
   #Box {
@@ -125,33 +133,8 @@ h1 {
   }
 }
 @media (max-width: 599px) {
-  .navbar #icon {
-    display: block;
-  }
   .navbar ul {
-    position: fixed;
-    width: 100%;
-    background: #2f3640;
-    top: 80px;
-    left: -100%;
-    text-align: center;
-    transition: all 0.2s;
-  }
-  .navbar li {
-    display: block;
-    margin: 50px 0;
-    line-height: 30px;
-  }
-  .navbar a {
-    font-size: 20px;
-  }
-  a.active,
-  a.hover {
-    border: none;
-    color: aquamarine;
-  }
-  .navbar ul.show {
-    left: 0;
+    flex-direction: column;
   }
   #Box {
     display: block;
