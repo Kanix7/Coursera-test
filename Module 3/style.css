@@ -132,7 +132,9 @@ h1 {
     width: 97%;
   }
 }
-@media (max-width: 599px) {
+@media (min-width: 319px) and (max-width: 599px) {
+  .navbar h1 {
+  }
   .navbar ul {
     flex-direction: column;
   }
